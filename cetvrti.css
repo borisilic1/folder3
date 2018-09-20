@@ -1,0 +1,67 @@
+body{
+    background:black;
+	margin: 0;
+	padding: 0;
+}
+header {
+    width:100%;
+	height:100px;
+	background-color:black;
+	border: 1px solid red;
+	}
+	#vreme {
+	color:red;
+	font-size:3em;
+	width:400px;
+	height:100px;
+	line-height:100px;
+	float:right;
+	}
+	#vreme1{
+	color:red;
+	font-size:3em;
+	width:400px;
+	height:100px;
+	line-height:100px;
+	float:left;
+	margin-left:150px;
+	}
+.omot{
+	width:600px;
+	margin:0px auto 0;
+	background:#3b3c3d;
+	
+}
+h2{
+	color:white;
+	font-size:80px;
+	text-align:center;
+	
+}
+span{
+	display:block;
+	background-image:url(vatra3.jpg);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-animation:fire 2s linear infinite;
+	-webkit-backface-visibility:hidden;
+}
+@keyFrames fire{
+	0%{background-position: 0% -50%;}
+	0%{background-position: 100% -50%;}
+}
+	#box{
+		
+	position:relative;
+	width:100%;
+	height:300px;
+	border:1px solid black;
+	background-color:black;
+	line-height:300px;
+	text-align:center;
+	margin:0px auto;
+	font-size:10em;
+	color:red;
+	font-variant: small-caps;
+	font-family: "Times New Roman";
+}
